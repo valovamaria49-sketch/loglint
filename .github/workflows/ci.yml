@@ -15,7 +15,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: "1.22"
+          go-version: "1.26"  
 
       - name: Cache Go modules
         uses: actions/cache@v4
@@ -46,6 +46,11 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: "1.26"
+
+      - name: Build plugin
+        run: |
+          mkdir -p ./bin
+          CGO_ENABLED=1 go build -buildmode=plugin -o ./bin/loglint.so ./plugin
 
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v7
