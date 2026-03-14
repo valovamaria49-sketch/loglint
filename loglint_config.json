@@ -1,0 +1,15 @@
+{
+  "sensitive_keywords": [
+    "password",
+    "token",
+    "api_key",
+    "secret",
+    "card_number",
+    "iban"
+  ],
+  "enable_lowercase_rule": true,
+  "enable_ascii_rule": true,
+  "enable_english_rule": true,
+  "enable_sensitive_rule": true
+}
+

@@ -1,0 +1,5 @@
+version: v2.10.1
+plugins:
+  - module: github.com/valovamaria49-sketch/loglint
+    import: loglint/analysis
+    path: /home/thm/GolandProjects/loglint

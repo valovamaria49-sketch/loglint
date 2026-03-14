@@ -1,0 +1,9 @@
+version: "2"
+
+linters:
+  settings:
+    custom:
+      loglint:
+        path: ./bin/loglint.so
+        description: "Линтер для проверки лог-записей"
+        original-url: github.com/valovamaria49-sketch/loglint

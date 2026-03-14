@@ -1,0 +1,41 @@
+# Скомпилированные бинарники
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+loglint
+bin/loglint.so
+custom-gcl
+
+# Папки с зависимостями
+vendor/
+
+# Тестовые кеши
+*.test
+*.out
+*.prof
+coverage.out
+
+# Кеши и временные файлы IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# Директории кеша
+tmp/
+temp/
+
+# Локальные конфиги (если хочешь исключить, но обычно их коммитят)
+# loglint_config.json  # раскомментируй, если не хочешь коммитить конфиг
+
+# Временные файлы тестов
+testdata/tmp/
+testdata/*.tmp
+
+# Плагины для golangci-lint
+*.so
