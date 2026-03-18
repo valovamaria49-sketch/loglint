@@ -5,7 +5,7 @@
 ## Установка
 
 ```bash
-go install ./cmd/loglint@latest
+git clone https://github.com/valovamaria49-sketch/loglint.git
 ```
 
 ## Запуск

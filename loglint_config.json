@@ -7,8 +7,8 @@
     "card_number",
     "iban"
   ],
-  "enable_lowercase_rule": true,
-  "enable_ascii_rule": true,
+  "enable_lowercase_rule": false,
+  "enable_ascii_rule": false,
   "enable_english_rule": true,
   "enable_sensitive_rule": true
 }

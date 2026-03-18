@@ -4,7 +4,6 @@
 *.dll
 *.so
 *.dylib
-loglint
 bin/loglint.so
 custom-gcl
 
